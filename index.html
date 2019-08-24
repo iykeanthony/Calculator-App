@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Basic Calculator by Ikenna Ukpai</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<header>
+		<h1>Basic Calculator App</h1>
+	</header>
+	<main>
+		<form>
+			<div class="input-numbers">
+				<input type="text" name="" id="num1" placeholder="First Number">
+				<input type="text" name="" id="num2" placeholder="Second Number">
+			</div>
+			<div>
+				<select id="operator">
+					<option><strong>Add</strong></option>
+					<option><strong>Subtract</strong></option>
+					<option><strong>Multiply</strong></option>
+					<option><strong>Divide</strong></option>
+					<option><strong>Exponent</strong></option>
+					<option><strong>Modulus</strong></option>
+				</select>
+			</div>
+			<button type="button" class="btn" onclick="calculator()">Calculate</button>
+			<button type="button" class="btn btn-red" onclick="clearField()">Reset</button>
+		</form>
+		<h3 id="output"></h3>
+	</main>
+
+	<script type="text/javascript" src="./main.js"></script>
+</body>
+</html>

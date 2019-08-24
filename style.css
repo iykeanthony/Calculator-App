@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+}
+
+body{
+	font-family: 'Alegreya Sans', sans-serif;
+	background: #f0f5f1;
+	padding: 70px;
+	text-align: center;
+	font-size: 2.2rem;
+}
+
+input{
+	margin-top: 30px;
+	padding: 6px;
+	width: 100px;
+	height: 30px;
+}
+
+select{
+	margin-top: 30px;
+	padding: 6px;
+	width: 150px;
+	height: 40px;
+}
+
+.btn{
+	margin-top: 50px;
+	padding: 8px;
+	background: #7bad72;
+	border: none;
+	color: #fff;
+	width: 200px;
+	height: 50px;
+}
+
+.btn-red{
+	background: #ad7472;
+}
+
+#output{
+	margin-top: 30px;
+}
